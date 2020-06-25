@@ -16,11 +16,6 @@ class _HomePageState extends State<HomePage> {
   AssetImage _imagePath = AssetImage('images/smile.png');
 
   @override
-  void initState() {
-    _imagePath = AssetImage('images/smile.png');
-  }
-
-  @override
   Widget build(BuildContext context) {
     var mediaQuery = MediaQuery.of(context);
     return SafeArea(
@@ -82,7 +77,7 @@ class _HomePageState extends State<HomePage> {
                   child: Text(
                     smileyText,
                     style: TextStyle(
-                      fontSize: 17.0,
+                      fontSize: 15.0,
                     ),
                     textAlign: TextAlign.center,
                   ),
